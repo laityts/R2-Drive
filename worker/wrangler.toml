@@ -9,7 +9,7 @@ bucket_name = "file"
 
 [vars]
 # 前端允许访问的域名，多个用逗号分隔（部署后改为你的实际域名）
-ALLOWED_ORIGINS = "http://localhost:5173,https://file.juryory.com,https://r2-drive-frontend.pages.dev,https://drive.juryory.com"
+ALLOWED_ORIGINS = "http://localhost:5173,https://file.你的域名.com,https://r2-drive-frontend.pages.dev,https://drive.你的域名.com"
 
 # 以下通过 wrangler secret put 命令设置（不要写在这里）：
 # wrangler secret put JWT_SECRET        → 随机长字符串，用于签发 JWT
