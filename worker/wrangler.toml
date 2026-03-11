@@ -5,7 +5,7 @@ compatibility_flags = ["nodejs_compat"]
 
 [[r2_buckets]]
 binding = "BUCKET"
-bucket_name = "file"
+bucket_name = "files"
 
 [vars]
 # 前端允许访问的域名，多个用逗号分隔（部署后改为你的实际域名）
