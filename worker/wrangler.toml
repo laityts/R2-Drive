@@ -10,6 +10,8 @@ bucket_name = "files"
 [vars]
 # 前端允许访问的域名，多个用逗号分隔（部署后改为你的实际域名）
 ALLOWED_ORIGINS = "http://localhost:5173,https://file.vlato.site,https://r2-drive-frontend-7a8.pages.dev"
+ADMIN_USERNAME = "eytan"
+JWT_SECRET = "7ee5dab3c9a556c1cd73062f457a0f93b8b44995f3d0711e7b79df503e43b21b"
 
 # 以下通过 wrangler secret put 命令设置（不要写在这里）：
 # wrangler secret put JWT_SECRET        → 随机长字符串，用于签发 JWT
